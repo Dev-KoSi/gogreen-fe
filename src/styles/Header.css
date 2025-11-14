@@ -1,0 +1,78 @@
+.header{
+    /* border: #1E8449 1px solid; */
+    /* margin: 0 30px; */
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: white;
+    z-index: 9999;
+    position: fixed;
+    border-bottom: 0.5px solid #a0eec1;
+}
+
+.header .logo{
+    font-family: "Kaushan Script", "cursive";
+    font-size: 22px;
+    color: #1E8449;
+}
+
+.header .sub{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+
+.header nav{
+    display: flex;
+    gap: 40px;
+}
+
+.header nav a{
+    color: black;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+}
+
+.header nav a:hover{
+    color: #1E8449;
+}
+
+.header .sub-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.header .btns{
+    display: flex;
+    gap: 10px;
+}
+
+.header .btns .log-in{
+    color: white;
+    background-color: #1E8449;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #1E8449;
+}
+
+.header .btns .sign-up{
+    color: #1E8449;
+    background-color: white;
+    border: 1px solid #1E8449;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.header .mode{
+    text-align: right;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.header .mode:hover{
+    background-color: lightgray;
+}

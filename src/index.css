@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: 'outfit', sans-serif;
+}
+
+svg{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+    font-family: 'outfit', sans-serif;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration: none;
+    white-space: nowrap;
+}

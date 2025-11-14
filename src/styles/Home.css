@@ -1,0 +1,76 @@
+.homepage{
+    background-image: url(/home-bg.avif);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.homepage::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.181);
+    z-index: 1;
+}
+
+.homepage .flex{
+    display: flex;
+    position: absolute;
+    z-index: 99;
+    top: 30%;
+    height: 60vh;
+    border-radius: 0 60px;
+    gap: 10px;
+    margin: 0 10px 0 0;
+}
+
+.homepage .welcome{
+    padding: 30px 30px 0 10px;
+    border-radius: 0 60px;
+    background-color: white;
+    padding: 30px 30px 0 10px;
+}
+
+.homepage .welcome .head{
+    font-size: 40px;
+    color: #1E8449;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.homepage .welcome .note{
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.homepage .welcome .btn button{
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    /* background-color: #1E8449; */
+    background: linear-gradient(to right, #1E8449, #91d1ab);
+    border: 1px solid white;
+    padding: 30px;
+    font-size: 25px;
+    /* border-radius: 10px; */
+    transition: 0.5s ease-in-out;
+}
+
+.homepage .welcome .btn button:hover{
+    color: #1E8449;
+    background: linear-gradient(to right, white, white);
+    border: 1px solid #1E8449;
+}
+
+.homepage .welcome .btn button:hover::before{
+    left: 0;
+}
+
+.homepage .flex img{
+    border-radius: 60px 0;
+}
