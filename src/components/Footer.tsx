@@ -55,7 +55,7 @@ export function Footer() {
 
                 <div style={{borderBottom: '1px solid lightgray'}} className="handles-updates">
                     <div className="handles">
-                        <h4 style={{fontFamily: 'Caveat'}}>
+                        <h4 style={{fontFamily: "Kaushan Script", color: "#555555"}}>
                             FOLLOW US
                         </h4>
 
