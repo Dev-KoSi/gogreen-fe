@@ -15,6 +15,7 @@
     font-family: "Kaushan Script", "cursive";
     font-size: 22px;
     color: #1E8449;
+    cursor: pointer;
 }
 
 .header .sub{
