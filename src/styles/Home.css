@@ -45,18 +45,18 @@
 
 .homepage .welcome .note{
     font-size: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 }
 
 .homepage .welcome .btn button{
     width: 100%;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     /* background-color: #1E8449; */
     background: linear-gradient(to right, #1E8449, #91d1ab);
     border: 1px solid white;
-    padding: 30px;
-    font-size: 25px;
+    padding: 20px;
+    font-size: 18px;
     /* border-radius: 10px; */
     transition: 0.5s ease-in-out;
 }
