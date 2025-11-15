@@ -69,10 +69,13 @@
 
 .header .mode{
     text-align: right;
+}
+
+.header .mode svg{
     padding: 10px;
     border-radius: 50%;
 }
 
-.header .mode:hover{
+.header .mode svg:hover{
     background-color: lightgray;
 }
