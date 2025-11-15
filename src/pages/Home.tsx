@@ -1,8 +1,19 @@
+import { useEffect, useState } from "react";
 import { Header } from "../components/Header";
 import "../styles/Home.css"
 
 
 export function Home() {
+
+    const [value, setValue] = useState<number>(1);
+
+    useEffect(() => {
+        const id = setInterval(() => {
+            setValue(prev => (prev >= 8 ? 1 : prev + 1));
+        }, 5000);
+
+        return () => clearInterval(id);
+    }, []);
 
     return (
         <>
@@ -24,7 +35,9 @@ export function Home() {
                         </div>
                     </div>
 
-                    <img src="/home-seed.jpg" alt="" />
+                    <div className="img">
+                        <img src={`/home-${value}.jpg`}/>
+                    </div>
                 </div>
             </section>
         </>

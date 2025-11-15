@@ -67,10 +67,9 @@
     border: 1px solid #1E8449;
 }
 
-.homepage .welcome .btn button:hover::before{
-    left: 0;
-}
-
 .homepage .flex img{
+    transition: 0.5s ease-in-out;
     border-radius: 60px 0;
+    height: 100%;
+    width: 450px;
 }
