@@ -34,10 +34,16 @@
     color: black;
     transition: 0.3s ease-in-out;
     font-size: 14px;
+    padding: 0 5px 2px 5px;
 }
 
 .header nav a:hover{
     color: #1E8449;
+}
+
+.header #learn-1, .header #take-action-2, .header #about-3, .header #contact-4{
+    color: #1E8449;
+    border-bottom: 2px solid #1E8449;
 }
 
 .header .sub-2{

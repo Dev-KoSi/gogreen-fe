@@ -1,23 +1,52 @@
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import '../styles/Header.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function Header() {
 
-    const navigation = useNavigate();
+    const navigate = useNavigate();
 
     const [mode, setMode] = useState<Boolean>(false);
 
+    const location:any = useLocation();
+
+    const [loc, setLoc] = useState<string>('');
+
+    useEffect(() => {
+        if(location.pathname === '/learn') {
+            setLoc('1');
+        } else if(location.pathname === '/takeaction') {
+            setLoc('2');
+        } else if(location.pathname === '/about') {
+            setLoc('3');
+        } else if(location.pathname === '/contact') {
+            setLoc('4');
+        } else {
+            setLoc('');
+        }
+    }, [location]);
+
     return (
         <header className='header'>
-            <div className="logo" onClick={() => navigation('/')}>GoGreen</div>
+            <div className="logo" onClick={() => navigate('/')}>GoGreen</div>
 
             <div className='sub'>
                 <nav>
-                    <a href="">Learn</a>
-                    <a href="">Take Action</a>
-                    <a href="">About</a>
-                    <a href="">Contact</a>
+                    <a id={`learn-${loc}`} href="/learn" onClick={() => {
+                        setLoc('1');
+                    }}>Learn</a>
+                    
+                    <a id={`take-action-${loc}`} href="/takeaction" onClick={() => {
+                        setLoc('2');
+                    }}>Take Action</a>
+
+                    <a id={`about-${loc}`} href="/about" onClick={() => {
+                        setLoc('3');
+                    }}>About</a>
+
+                    <a id={`contact-${loc}`} href="/contact" onClick={() => {
+                        setLoc('4');
+                    }}>Contact</a>
                 </nav>
 
                 <div className='sub-2'>
