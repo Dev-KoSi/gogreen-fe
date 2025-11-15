@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Header } from "../components/Header";
 import "../styles/Home.css"
+import { Footer } from "../components/Footer";
 
 
 export function Home() {
@@ -40,6 +41,8 @@ export function Home() {
                     </div>
                 </div>
             </section>
+
+            <Footer/>
         </>
     )
 }
