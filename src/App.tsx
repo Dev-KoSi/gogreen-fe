@@ -5,6 +5,7 @@ import { Signup } from "./pages/signup"
 import { Learn } from "./pages/Learn"
 import { TakeAction } from "./pages/TakeAction"
 import { About } from "./pages/About"
+import { Contact } from "./pages/Contact"
 
 
 export function App() {
@@ -55,6 +56,14 @@ export function App() {
       element: (
         <>
           <About/>
+        </>
+      )
+    },
+    {
+      path: '/contact',
+      element: (
+        <>
+          <Contact/>
         </>
       )
     },
