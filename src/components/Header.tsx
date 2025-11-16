@@ -53,7 +53,7 @@ export function Header() {
                     <div className="btns">
                         <button className='log-in' onClick={() => navigate('/login')}>Log In</button>
 
-                        <button className='sign-up'>Sign Up</button>
+                        <button className='sign-up' onClick={() => navigate('/create-account')}>Sign Up</button>
                     </div>
 
                     <div className="mode">

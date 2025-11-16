@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Login } from "./pages/login"
+import { Signup } from "./pages/signup"
 
 
 export function App() {
@@ -26,7 +27,7 @@ export function App() {
       path: '/create-account',
       element: (
         <>
-          <Home/>
+          <Signup/>
         </>
       )
     },
