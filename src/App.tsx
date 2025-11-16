@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Login } from "./pages/login"
 import { Signup } from "./pages/signup"
+import { Learn } from "./pages/Learn"
 
 
 export function App() {
@@ -28,6 +29,14 @@ export function App() {
       element: (
         <>
           <Signup/>
+        </>
+      )
+    },
+    {
+      path: '/learn',
+      element: (
+        <>
+          <Learn/>
         </>
       )
     },
