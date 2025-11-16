@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import '../styles/sign.css'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 // import { useEffect } from 'react';
 
 export function Signup() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState('password');
 
     // const signupFunc = async () => {
@@ -41,7 +41,7 @@ export function Signup() {
 
     return (
         <div className='sign-page' style={{width : "fit-content", margin : "0 auto"}}>
-            <div style={{width : "fit-content", margin : "0 auto"}} className="friendi-txt">
+            <div style={{width : "fit-content", margin : "0 auto"}} className="gogreen-txt" onClick={() => navigate('/')}>
                 GoGreen
             </div>
             <div className="signup-page">

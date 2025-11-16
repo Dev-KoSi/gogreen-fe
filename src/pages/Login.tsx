@@ -62,7 +62,7 @@ export function Login() {
 
     return (
         <div className='sign-page' style={{width : "fit-content", margin : "0 auto"}}>
-            <div style={{width : "fit-content", margin : "0 auto"}} className="friendi-txt">
+            <div style={{width : "fit-content", margin : "0 auto"}} className="gogreen-txt" onClick={() => navigate('/')}>
                 GoGreen
             </div>
             <div className="login-page">
