@@ -4,6 +4,7 @@ import { Login } from "./pages/login"
 import { Signup } from "./pages/signup"
 import { Learn } from "./pages/Learn"
 import { TakeAction } from "./pages/TakeAction"
+import { About } from "./pages/About"
 
 
 export function App() {
@@ -46,6 +47,14 @@ export function App() {
       element: (
         <>
           <TakeAction/>
+        </>
+      )
+    },
+    {
+      path: '/about',
+      element: (
+        <>
+          <About/>
         </>
       )
     },
