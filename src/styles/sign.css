@@ -1,0 +1,70 @@
+.sign-page{
+    position: relative;
+    top: 100px;
+}
+.friendi-txt{
+    font-family: "Kaushan Script", cursive;
+    font-size: 70px;
+    color: #1E8449;
+}
+.signup-page, .login-page{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 10px 30px #1E8449;
+    padding: 20px;
+}
+.signup-page .txt, .login-page .txt{
+    margin: 10px 0px 20px 0px;
+    font-size: 30px;
+    color: black;
+}
+.Link{
+    text-decoration: none;
+    color: #1E8449;
+    font-weight: bold;
+}
+.Link :hover {
+    text-decoration: underline;
+    color: #00df82;
+}
+.hover :hover{
+    background-color: #00df82;
+}
+.bb{
+    width: 300px;
+    text-align: left;
+    border-bottom: 1px solid #03624c;
+}
+.bb input{
+    width: 300px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+}
+.show-password{
+    display: flex;
+    margin-top: 5px;
+}
+.show-password input{
+    cursor: pointer;
+    margin-top: -1px;
+}
+.signup-btn button, .login-btn button{
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    background-color: #1E8449;
+    padding: 5px 0px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+.sign-othwewise{
+    margin-top: 25px;
+    font-size: 14.5px;
+}
+.sign-othwewise span{
+    cursor: pointer;
+}
