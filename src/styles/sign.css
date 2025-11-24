@@ -61,7 +61,43 @@
     cursor: pointer;
     font-size: 18px;
     color: white;
+    transition: 0.3s ease-in-out;
 }
+
+.or-sign{
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.or-sign :first-child{
+    background-color: lightgray;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.or-sign :nth-child(3){
+    background-color: lightgray;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.google-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0;
+    background-color: #F6F6F6;
+    border: 0.5px solid #F6F6F6;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.google-btn:hover{
+    border: 0.5px solid lightgray;
+}
+
 .sign-othwewise{
     margin-top: 25px;
     font-size: 14.5px;
