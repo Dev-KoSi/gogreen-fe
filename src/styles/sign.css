@@ -68,12 +68,17 @@
     margin: 15px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    width: 300px;
 }
 
 .or-sign :first-child{
     background-color: lightgray;
     height: 1px;
     margin-top: 10px;
+}
+
+.or-sign :nth-child(2){
+    white-space: nowrap;
 }
 
 .or-sign :nth-child(3){
