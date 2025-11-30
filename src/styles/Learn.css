@@ -2,13 +2,14 @@
     height: 100vh;
     position: relative;
     margin-bottom: 50px;
-    top: 150px;
+    top: 120px;
     margin: 0px 150px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .learn #head{
-    font-size: 50px;
+    font-size: 40px;
     color: #1E8449;
     margin-bottom: 20px;
     font-family: "BBH Sans Bartle", sans-serif;
@@ -22,7 +23,7 @@
 .learn .collection .head{
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .learn .collection .grid{
@@ -32,7 +33,7 @@
 }
 
 .learn .collection .grid div img{
-    width: 70%;
+    width: 60%;
     background-color: #F6F6F6;
     padding: 20px ;
     cursor: pointer;
