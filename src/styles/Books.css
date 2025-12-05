@@ -101,6 +101,10 @@
     background-color: goldenrod;
 }
 
+.p-s{
+    background-color: darkred;
+}
+
 .category .head{
     font-size: 30px;
 }

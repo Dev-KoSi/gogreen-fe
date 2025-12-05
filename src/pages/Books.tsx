@@ -163,6 +163,50 @@ export function Books() {
                 </div>
             </section>
 
+            <section className="category p-s">
+                <div className="head">
+                    Policy & Society
+                </div>
+
+                <div className="txt">
+                    Learn how governments, organizations, and communities respond to climate challenges. This category covers climate policy, global agreements, environmental law, climate justice, and the social movements pushing for systemic change.
+                </div>
+
+                <div className="grid">
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <Footer/>
         </>
     )
