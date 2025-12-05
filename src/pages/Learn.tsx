@@ -1,9 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import '../styles/Learn.css'
 
 
 export function Learn() {
+    const navigate = useNavigate();
 
     return (
         <>
@@ -25,7 +27,7 @@ export function Learn() {
 
                     <div className="grid">
                         <div className="books">
-                            <img src="/books.webp" alt="" />
+                            <img onClick={() => navigate('/learn/books')} src="/books.webp" alt="" />
                             <div id="name">Books</div>
                         </div>
 

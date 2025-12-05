@@ -6,6 +6,7 @@ import { Learn } from "./pages/Learn"
 import { TakeAction } from "./pages/TakeAction"
 import { About } from "./pages/About"
 import { Contact } from "./pages/Contact"
+import { Books } from "./pages/Books"
 
 
 export function App() {
@@ -40,6 +41,14 @@ export function App() {
       element: (
         <>
           <Learn/>
+        </>
+      )
+    },
+    {
+      path: '/learn/books',
+      element: (
+        <>
+          <Books/>
         </>
       )
     },
