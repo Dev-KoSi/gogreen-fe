@@ -75,6 +75,49 @@ export function Books() {
                 </div>
             </section>
 
+            <section className="category i">
+                <div className="head">
+                    Impacts
+                </div>
+
+                <div className="txt">
+                    Dive into how climate change affects the world around us. From rising seas and shifting ecosystems to public health, agriculture, and economies, this section highlights the real-world consequences shaping communities and environments worldwide.
+                </div>
+
+                <div className="grid">
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <Footer/>
         </>
