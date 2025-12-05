@@ -119,6 +119,50 @@ export function Books() {
                 </div>
             </section>
 
+            <section className="category s">
+                <div className="head">
+                    Solutions
+                </div>
+
+                <div className="txt">
+                    Discover the paths toward a sustainable future. These books cover renewable energy, carbon reduction, climate-smart technologies, conservation strategies, and practical steps individuals and societies can take to reduce climate risks.
+                </div>
+
+                <div className="grid">
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <Footer/>
         </>
     )
