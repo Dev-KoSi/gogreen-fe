@@ -31,6 +31,51 @@ export function Books() {
 
             </div>
 
+            <section className="category c-s">
+                <div className="head">
+                    Climate Science
+                </div>
+
+                <div className="txt">
+                    Explore the fundamentals of how our planet’s climate system works. These books break down the science behind global warming, greenhouse gases, extreme weather, and long-term climate trends—perfect for readers who want clear, evidence-based understanding.
+                </div>
+
+                <div className="grid">
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             <Footer/>
         </>
     )
