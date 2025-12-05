@@ -207,6 +207,50 @@ export function Books() {
                 </div>
             </section>
 
+            <section className="category s-e">
+                <div className="head">
+                    Stories & Education
+                </div>
+
+                <div className="txt">
+                    A collection of narrative-driven works, youth-friendly materials, and educational guides. Whether you’re looking for personal stories, accessible explanations for students, or engaging accounts of people fighting for the planet, this section has something for every reader.
+                </div>
+
+                <div className="grid">
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                    
+                    <div className="book">
+                        <img src="/mock-book.jpeg"/>
+
+                        <div className="title">
+                            Mock book
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <Footer/>
         </>
     )
