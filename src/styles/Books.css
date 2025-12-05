@@ -52,3 +52,34 @@
     line-height: 1.5;
     font-size: 20px;
 }
+
+.books-search{
+    margin: 30px 150px;
+    border: 1px solid #1E8449;
+    width: 30%;
+    align-items: center;
+    display: flex;
+}
+
+.books-search input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.books-search svg{
+    background-color: #1E8449;
+    padding: 10px 15px;
+    color: white;
+}
+
+.books-search:focus-within{
+    box-shadow: 0 0 3px #1E8449;
+}
+
+#bb{
+    border-top: 1px solid #1E8449;
+    padding-bottom: 50px;
+    background-color: #F6F6F6;
+}
