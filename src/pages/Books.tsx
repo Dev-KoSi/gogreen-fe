@@ -251,6 +251,8 @@ export function Books() {
                 </div>
             </section>
 
+            <div style={{marginTop: '50px'}}></div>
+
             <Footer/>
         </>
     )
