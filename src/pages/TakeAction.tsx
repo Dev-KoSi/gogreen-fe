@@ -8,13 +8,13 @@ export function TakeAction() {
 
     const [value, setValue] = useState<number>(1);
 
-    // useEffect(() => {
-    //     const id = setInterval(() => {
-    //         setValue(prev => (prev >= 6 ? 1 : prev + 1));
-    //     }, 10000);
+    useEffect(() => {
+        const id = setInterval(() => {
+            setValue(prev => (prev >= 6 ? 1 : prev + 1));
+        }, 10000);
 
-    //     return () => clearInterval(id);
-    // }, []);
+        return () => clearInterval(id);
+    }, []);
 
     return (
         <>
