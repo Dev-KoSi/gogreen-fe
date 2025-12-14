@@ -1,0 +1,35 @@
+.action-landing{
+    height: 550px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.action-landing img{
+    height: 100%;
+    width: 100%;
+}
+
+.action-landing::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.39);
+    z-index: 1;
+}
+
+.action-landing .head{
+    color: #1E8449;
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-size: 40px;
+    width: 60%;
+    position: absolute;
+    background-color: white;
+    /* background: linear-gradient(to right, #1E8449, #00df82); */
+    bottom: -150px;
+    z-index: 99;
+    padding: 50px 50px 50px 10px;
+    border-radius: 0 100px 0 0;
+}
