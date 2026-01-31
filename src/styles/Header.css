@@ -94,6 +94,7 @@
 .header .mode svg{
     padding: 10px;
     border-radius: 50%;
+    transition: 0.3s ease-in-out;
 }
 
 .header .mode svg:hover{

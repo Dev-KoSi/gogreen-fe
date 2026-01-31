@@ -1,0 +1,59 @@
+.profile{
+    position: absolute;
+    right: 5px;
+    top: 80px;
+    border: 1px solid #1E8449;
+    padding: 20px;
+    background-color: white;
+    z-index: 999999;
+}
+
+.profile .head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 100px 0 2px;
+}
+
+.profile .head .p-pic img{
+    width:100%;
+    border-radius: 50%;
+}
+
+.profile .head .name{
+    font-size: 25px;
+}
+
+.profile .status{
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid lightgray;
+    padding: 0 0 20px 2px;
+}
+
+.profile nav{
+    display: block;
+    font-size: 18px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.profile nav div{
+    margin-top: 5px;
+    padding: 5px 0 5px 2px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.profile .logout{
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 5px 0 5px 2px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    color: red;
+}
+
+.profile .logout:hover, .profile nav div:hover{
+    background-color: #f5f5f5;
+}
